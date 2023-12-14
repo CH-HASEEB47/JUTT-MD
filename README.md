@@ -9,10 +9,10 @@
     <img src="https://graph.org/file/14d7cc038fa3192a8fe43.jpg" width="249">
 </p>
 
-<h1 align="center"> A17 BoT (Beta)</h1>
+<h1 align="center">  BoT (Beta)</h1>
 
 <p align="center"> 
-  Hi there, I'm "A17," a versatile WhatsApp bot created and reprogrammed by Kai to perform a wide array of functions based on WhatsApp Multi-Device (MD) Support.
+  Hi there, I'm "JUTT MD," a versatile WhatsApp bot created and reprogrammed by HASEEB to perform a wide array of functions based on WhatsApp Multi-Device (MD) Support.
 
 <p align="center"> 
   <a href="https://github.com/Kai0071/A17/stargazers">
@@ -52,8 +52,8 @@
 <h2 align="center"> 🔰 Tap Here To Fork 🔰 </h2>
 
 <h2 align="center">
-  <a href="https://github.com/Kai0071/A17/fork">
-    <img src="https://img.shields.io/badge/FORK A17 MD-h?color=white&style=for-the-badge&logo=stackshare" />
+  <a href="https://github.com/CH-HASEEB47/JUTT-MD/fork">
+    <img src="https://img.shields.io/badge/FORK JUTT MD-h?color=white&style=for-the-badge&logo=stackshare" />
   </a>
 </h2>
 
@@ -93,7 +93,7 @@ global.BotName = "A17";
 
 <h2 align="center">
   <a href="https://github.com/codespaces/new">
-    <img title="A17 on GitHub Codespaces" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode" />
+    <img title="JUTT MD on GitHub Codespaces" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode" />
   </a>
 </h2>
 <br>
@@ -111,7 +111,7 @@ global.BotName = "A17";
 
 <h2 align="center">
   <a href="https://railway.app/new">
-    <img title="A17 on Railway" src="https://railway.app/button.svg" />
+    <img title="JUTT MD on Railway" src="https://railway.app/button.svg" />
   </a>
 </h2>
 <br>
@@ -119,7 +119,7 @@ global.BotName = "A17";
 <h2 align="center"> ❤  Deploy On Heroku  ❤ </h2>
 
 <p align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/Kai0071/A17">
+  <a href="https://heroku.com/deploy?template=https://github.com/CH-HASEEB47/JUTT-MD">
     <img title="A17 on Heroku" src="https://www.herokucdn.com/deploy/button.png" alt="Deploy on Heroku">
   </a>
 </p>
