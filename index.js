@@ -1,6 +1,6 @@
 require("./config.js");
 const {
-  default: A17Connect,
+  default: JUTT-MDConnect,
   useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion,
@@ -48,10 +48,10 @@ const store = makeInMemoryStore({
   logger: pino().child({ level: "silent", stream: "store" }),
 });
 
-async function startA17() {
+async function startJUTT-MD() {
   console.log(
     color(
-      figlet.textSync("A17 Bot MD", {
+      figlet.textSync("JUTT-MD BOT", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -62,29 +62,29 @@ async function startA17() {
       "green"
     )
   );
-  console.log(color('\nHello, I am Kai, the main Developer of this bot.\n\nThanks for using: A17 Bot.', 'aqua'))
-  console.log(color('\nYou can follow me on GitHub: Kai0071', 'aqua'))
+  console.log(color('\nHello, I am HASEEB, the main Developer of this bot.\n\nThanks for using: JUTT-MD Bot.', 'aqua'))
+  console.log(color('\nYou can follow me on GitHub: CH-HASEEB47', 'aqua'))
 
-  const { state, saveCreds } = await useMultiFileAuthState("./A17-SESSION");
-  const A17 = A17Connect({
+  const { state, saveCreds } = await useMultiFileAuthState("./JUTT-MD-SESSION");
+  const JUTT-MD = JUTT-MDConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["A17 Bot", "Safari", "3.O"],
+    browser: ["JUTT-MD Bot", "Safari", "3.O"],
     auth: state,
   });
 
-  store.bind(A17.ev);
+  store.bind(JUTT-MD.ev);
 
 
  //
-  A17.ws.on('CB:call', async (json) => {
+  JUTT-MD.ws.on('CB:call', async (json) => {
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag === 'offer') {
       try {
-        let contactMessage = await A17.sendContact(callerId, global.Owner)
-        await A17.sendMessage(callerId, { text: `Automatic Block System!\nDo not call this number!\nPlease unblock this number with permission from the Bot Owner.` }, { quoted: contactMessage })
+        let contactMessage = await JUTT-MD.sendContact(callerId, global.Owner)
+        await JUTT-MD.sendMessage(callerId, { text: `Automatic Block System!\nDo not call this number!\nPlease unblock this number with permission from the Bot Owner.` }, { quoted: contactMessage })
         await sleep(8000)
-        await A17.updateBlockStatus(callerId, "block")
+        await JUTT-MD.updateBlockStatus(callerId, "block")
       } catch (error) {
         console.error(error)
       }
@@ -101,11 +101,11 @@ async function startA17() {
           ? mek.message.ephemeralMessage.message
           : mek.message;
       if (mek.key && mek.key.remoteJid === "status@broadcast") return;
-      if (!A17.public && !mek.key.fromMe && chatUpdate.type === "notify")
+      if (!JUTT-MD.public && !mek.key.fromMe && chatUpdate.type === "notify")
         return;
       if (mek.key.id.startsWith("BAE5") && mek.key.id.length === 16) return;
-      m = smsg(A17, mek, store);
-      require("./Core")(A17, m, chatUpdate, store);
+      m = smsg(JUTT-MD, mek, store);
+      require("./Core")(JUTT-MD, m, chatUpdate, store);
     } catch (err) {
       console.log(err);
     }
@@ -116,7 +116,7 @@ async function startA17() {
  A17.ev.on('groups.update', async pea => {
      
         try {     
-        ppgc = await A17.profilePictureUrl(pea[0].id, 'image')
+        ppgc = await JUTT-MD.profilePictureUrl(pea[0].id, 'image')
         } catch {
         ppgc = 'https://wallpapercave.com/wp/wp10524580.jpg'
         }
@@ -135,13 +135,13 @@ async function startA17() {
     //console.log(pea)
     // Get Profile Picture Group
     try {
-      ppgc = await A17.profilePictureUrl(pea[0].id, 'image')
+      ppgc = await JUTT-MD.profilePictureUrl(pea[0].id, 'image')
     } catch {
       ppgc = 'https://images2.alphacoders.com/882/882819.jpg'
     }
     let wm_fatih = { url: ppgc }
     if (pea[0].announce == true) {
-      //A17.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `A17 Bot`, wm_fatih, [])
+      //JUTT-MD.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `A17 Bot`, wm_fatih, [])
 
       A17.sendMessage(m.chat, { image: wm_fatih, caption: 'Grop has been *Closed!* Only *Admins* can send Messages!' })
     } else if (pea[0].announce == false) {
