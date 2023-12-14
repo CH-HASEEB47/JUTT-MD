@@ -21,15 +21,15 @@ global.prefa = ["."];                                    //Default prefix here. 
 
 
 //
-global.Owner = ["916297175943", "919362639362"];         //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.OwnerNumber = ["916297175943", "919362639362"];   //If you want singal number so global.Owner = ['916297175943'] Change into your number.
-global.ownertag = ["916297175943"];
-global.OwnerName = "Kai";
-global.BotName = "A17";
-global.packname = "A17 Bot";                             //Do not change.
-global.author = "By: Kai";                               //Do not change.
-global.BotSourceCode = "https://github.com/Kai0071/A17"; //Do not change.
-global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
+global.Owner = ["923407472645", "923407472645"];         //If you want singal number so global.Owner = ['923407472645'] Change into your number.
+global.OwnerNumber = ["92307472645", "92307472645"];   //If you want singal number so global.Owner = ['923407472645'] Change into your number.
+global.ownertag = ["923407472645"];
+global.OwnerName = "CH HASEEB";
+global.BotName = "JUTT-MD";
+global.packname = "JUTT-MD Bot";                             //Do not change.
+global.author = "By:CH HASEEB";                               //Do not change.
+global.BotSourceCode = "https://github.com/CH-HASEEB47/JUTT-MD"; //Do not change.
+global.SupportGroupLink = "https://chat.whatsapp.com/JJPf8yGPysnB7j1vrgnGP4";
 
 
 //
@@ -41,11 +41,11 @@ global.openAiAPI = "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";
 
 
 //
-global.location = "Tata City, India";
+global.location = "DGK,Pakistan ";
 global.reactmoji = "❤️";
 global.themeemoji = "💖";
 global.vidmenu = { url: 'https://media.tenor.com/Jdu0Ov8X2sIAAAAC/A17-Bot.mp4' };
-global.websitex = "https://github.com/Kai0071";
+global.websitex = "https:/CH-HASEEB47/JUTT-MD";
 global.lolhuman = "KaysaS";
 
 
