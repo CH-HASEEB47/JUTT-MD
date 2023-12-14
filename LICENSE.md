@@ -1,7 +1,7 @@
 MIT License
 
 
-Copyright (c) 2022 - 2023 | Kai
+Copyright (c) 2022 - 2023 | CH-HASEEB47
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
