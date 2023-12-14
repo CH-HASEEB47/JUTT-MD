@@ -66,6 +66,11 @@
   <a href="https://replit.com/@Kai0071/A17-Multi-Session?v=1">
     <img src="https://repl.it/badge/github/quiec/whatsasena" />
   </a>
+  <h2 align="center"> 🍁  Run Repl for Multi Session QR 2 🍁 </h2>
+
+<h2 align="center">
+  <a href="https://replit.com/@MHMODS/JUTT-Multi-Session?v=1">
+    <img src="https://repl.it/badge/github/quiec/whatsasena" />
 </h2>
 
 <br>
